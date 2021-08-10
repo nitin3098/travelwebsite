@@ -1,6 +1,12 @@
 import React from 'react'
 import Carditem from './Carditem'
 import './Cards.css'
+import img1 from './images/img-1.jpg'
+import img2 from './images/img-2.jpg'
+import img3 from './images/img-3.jpg'
+import img4 from './images/img-4.jpg'
+import img5 from './images/img-5.jpg'
+import img6 from './images/img-6.jpg'
 
 function Cards() {
     return (
@@ -10,20 +16,20 @@ function Cards() {
                 <div className="card__wrapper">
                     <ul className="card__item">
                         <Carditem
-                        src="images/img-1.jpg"
+                        src={img1}
                         text="Explore deep inside amazon jungle"
                         label="Adventure"
                         path="/Services"
                         />
                         <Carditem
-                        src="images/img-2.jpg"
-                        text="Explore deep inside balli"
+                        src={img2}
+                        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
                         label="Adventure"
                         path="/Services"
                         />
                          <Carditem
-                        src="images/img-3.jpg"
-                        text="Explore deep inside balli"
+                        src={img3}
+                        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
                         label="Adventure"
                         path="/Services"
                         />
@@ -33,20 +39,20 @@ function Cards() {
                     <br></br>
                     <ul className="card__item">
                         <Carditem
-                        src="images/img-4.jpg"
-                        text="Explore deep inside amazon jungle"
+                        src={img4}
+                        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
                         label="Adventure"
                         path="/Services"
                         />
                         <Carditem
-                        src="images/img-5.jpg"
-                        text="Explore deep inside balli"
+                        src={img5}
+                        text="Explore city of love paris"
                         label="Adventure"
                         path="/Services"
                         />
                         <Carditem
-                        src="images/img-6.jpg"
-                        text="Explore deep inside amazon jungle"
+                        src={img6}
+                        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
                         label="Adventure"
                         path="/Services"
                         />
